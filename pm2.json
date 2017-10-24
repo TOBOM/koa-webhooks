@@ -1,0 +1,17 @@
+{
+    "apps": [
+        {
+            "name": "koa-webhook2",
+            "cwd": "/mnt/koa-webhooks",
+            "script": "./start.sh",
+            "exec_interpreter": "bash",            
+            "min_uptime": "60s",
+            "max_restarts": 15,
+            "error_file": "./err.log",
+            "out_file": "./out.log",
+            "pid_file": "./app.pid",
+            "watch": true
+
+        }
+    ]
+}

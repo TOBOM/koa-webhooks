@@ -1,0 +1,6 @@
+{
+  "PORT": 6666,
+  "URL_PATH": "/updates",
+  "SECRET": "dasdasdasd12edasf564564",
+  "FILE_PATH": "/mnt/hexo/hexo/"
+}
